@@ -1,6 +1,6 @@
 # go-sgr
 
-Package **sgr** provides tools for working with **Select Graphic Rendition** (**SGR**) control sequences.
+Package **sgr** provides tools for working with **Select Graphic Rendition** (**SGR**) control sequences, for the Go programming language.
 
 ## Documention
 
