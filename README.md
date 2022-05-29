@@ -50,7 +50,7 @@ The **SGR** control sequences are as follows:
 |   1 | bold              | `CSI "1" "m"`   | `"\x1b[1m"`   |                                                                          |
 |   2 | faint             | `CSI "2" "m"`   | `"\x1b[2m"`   |                                                                          |
 |   3 | italicized        | `CSI "3" "m"`   | `"\x1b[3m"`   |                                                                          |
-|   4 | singly underlined | `CSI "4" "m"    | `"\x1b[4m"`   |                                                                          |
+|   4 | singly underlined | `CSI "4" "m"`   | `"\x1b[4m"`   |                                                                          |
 |   5 | slowly blinking   | `CSI "5" "m"`   | `"\x1b[5m"`   |                                                                          |
 |   6 | rapidly blinking  | `CSI "6" "n"`   | `"\x1b[6m"`   |                                                                          |
 |   7 | negative          | `CSI "7" "n"`   | `"\x1b[7m"`   |                                                                          |
