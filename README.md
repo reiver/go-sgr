@@ -50,7 +50,7 @@ The **SGR** control sequences are as follows:
 |   1 | font-weight, bold     | `CSI "1" "m"`   | `"\x1b[1m"`    |                                                                          |
 |   2 | font-weight faint     | `CSI "2" "m"`   | `"\x1b[2m"`    |                                                                          |
 |   3 | font-style italicized | `CSI "3" "m"`   | `"\x1b[3m"`    |                                                                          |
-|   4 | singly underlined     | `CSI "4" "m"`   | `"\x1b[4m"`    |                                                                          |
+|   4 | underline, single     | `CSI "4" "m"`   | `"\x1b[4m"`    | singly underlined                                                        |
 |   5 | blinking, slowly      | `CSI "5" "m"`   | `"\x1b[5m"`    |                                                                          |
 |   6 | blinking, rapidly     | `CSI "6" "m"`   | `"\x1b[6m"`    |                                                                          |
 |   7 | negative              | `CSI "7" "m"`   | `"\x1b[7m"`    |                                                                          |
@@ -66,4 +66,8 @@ The **SGR** control sequences are as follows:
 |  17 | font, alternative 8   | `CSI "17" "m"`  | `"\x1b[17m"`   | eighth alternative font                                                  |
 |  18 | font, alternative 9   | `CSI "18" "m"`  | `"\x1b[18m"`   | nineth alternative font                                                  |
 |  19 | font-style fraktur    | `CSI "19" "m"`  | `"\x1b[19m"`   |                                                                          |
+|  21 | underline, double     | `CSI "21" "m"`  | `"\x1b[21m"`   | doubly underlined                                                        |
+|  22 | font-weight off       | `CSI "22" "m"`  | `"\x1b[22m"`   | Turns off bold font-weight and faint font-weight if either is on.        |
 |  23 | font-style off        | `CSI "23" "m"`  | `"\x1b[23m"`   | Turns off italic font-size and fraktur font-size if either is on.        |
+|  53 | overline              | `CSI "53" "m"`  | `"\x1b[53m"`   |                                                                          |
+|  55 | overline off          | `CSI "55" "m"`  | `"\x1b[55m"`   |                                                                          |
