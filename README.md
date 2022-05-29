@@ -28,7 +28,7 @@ Here `n` is number written in text (rather than binary).
 For example:
 ```
 CSI "1" "m"
-``
+```
 Or in other words:
 ```
 ESC "[" "1" "m"
